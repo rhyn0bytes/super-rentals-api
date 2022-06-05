@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  jsonapi_resources :rentals
+  namespace :api do
+    jsonapi_resources :rentals
+  end
 end
