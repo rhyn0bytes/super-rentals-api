@@ -13,7 +13,7 @@ The following tools should already be available on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/rhyn0bytes/super-rentals-api.git`
 * `cd super-rentals-api`
 * `bundle install`
 
