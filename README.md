@@ -1,24 +1,29 @@
-# README
+# Super Rentals API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README outlines the changes made to rails api to adhere to jsonapi standard and provide data for the ember tutorial.
 
-Things you may want to cover:
+This README will also outline how to setup and start the rails server.
 
-* Ruby version
+## Assumptions
 
-* System dependencies
+The following tools should already be available on your computer.
 
-* Configuration
+* [Git](https://git-scm.com/)
+* [Ruby 2.7.6](https://www.ruby-lang.org/en/)
 
-* Database creation
+## Installation
 
-* Database initialization
+* `git clone <repository-url>` this repository
+* `cd super-rentals-api`
+* `bundle install`
 
-* How to run the test suite
+## Running the Server
 
-* Services (job queues, cache servers, search engines, etc.)
+* `rails server`
+* Visit endpoint at [http:localhost:3000/api/rentals](http://localhost:3000/api/rentals)
+* Use PostMan to send a GET request to [http:localhost:3000/api/rentals](http://localhost:3000/api/rentals)
 
-* Deployment instructions
-
-* ...
+## Documentation used
+* [Quick Start jsonapi with Rails](https://howtojsonapi.com/rails.html)
+* [jsonapi-resources Documentation](https://jsonapi-resources.com/v0.9/guide/resources.html)
+* A few quick searches for forcing rails and ActiveRecord to accept strings for ID instead of autoIncrementing integers or UUIDs
